@@ -69,5 +69,54 @@ namespace pkNX.WinForms.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 牙牙湖之眼
+        /// </summary>
+        public static string locations_zh {
+            get {
+                return ResourceManager.GetString("locations_zh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap map {
+            get {
+                object obj = ResourceManager.GetObject("map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap map_ct {
+            get {
+                object obj = ResourceManager.GetObject("map_ct", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap map_ioa {
+            get {
+                object obj = ResourceManager.GetObject("map_ioa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 妙蛙种子
+        ///鲤鱼 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string species_zh {
+            get {
+                return ResourceManager.GetString("species_zh", resourceCulture);
+            }
+        }
     }
 }

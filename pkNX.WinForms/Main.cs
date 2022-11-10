@@ -304,4 +304,12 @@ public partial class Main : Form
     {
         Editor?.Save();
     }
+
+    private void simpleToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        Hide();
+        var simple = new SimpleFrm();
+        simple.ShowDialog();
+        Close();
+    }
 }
